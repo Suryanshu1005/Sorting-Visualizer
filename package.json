@@ -1,6 +1,5 @@
 {
   "name": "algo-visualizer",
-  "homepage": "https://Suryanshu1005.github.io/Sorting-Visualizer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
