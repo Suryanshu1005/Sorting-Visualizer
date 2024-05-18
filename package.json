@@ -1,5 +1,6 @@
 {
   "name": "algo-visualizer",
+  "homepage": "https://Suryanshu1005.github.io/Sorting-Visualizer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +21,8 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "predeploy": "react-scripts --openssl-legacy-provider build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
